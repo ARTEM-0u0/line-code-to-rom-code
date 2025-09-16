@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
 		// это чтоб создать файл
 		if (fout.is_open())
 		{
-			fout << '';
+			fout << ' ';
 			fout.close();
 		}
 	}
